@@ -1,8 +1,5 @@
 {
   "build": {
-    "builder": "RAILPACK"
-  },
-  "deploy": {
-    "startCommand": "cd backend && gunicorn trip_planner.wsgi:application"
+    "builder": "DOCKERFILE"
   }
 }
