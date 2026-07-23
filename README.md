@@ -10,7 +10,7 @@ The application takes trip details as input and outputs a route map with stops, 
 
 - **Frontend:** https://fleetlog-trip-planner.vercel.app
 - **Backend API:** https://nayar900.pythonanywhere.com
-- **Backend:** https://nayar900.pythonanywhere.com/api/plan-trip/?
+- **Backend:** https://nayar900.pythonanywhere.com/api/plan-trip/
 
 ## Features
 
