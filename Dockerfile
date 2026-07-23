@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+﻿FROM python:3.11-slim
 
 WORKDIR /app
 
@@ -8,9 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt gunicorn
 
 # Copy the rest of the backend
 COPY backend/ .
-
-# Set working directory to backend
-WORKDIR /app
 
 # Run the application
 CMD ["gunicorn", "trip_planner.wsgi:application", "--bind", "0.0.0.0:8000"]
