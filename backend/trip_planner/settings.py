@@ -10,7 +10,6 @@ SECRET_KEY = 'django-insecure-your-secret-key-here'
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 
-# ===== ADD THIS LINE =====
 ROOT_URLCONF = 'trip_planner.urls'
 
 INSTALLED_APPS = [
@@ -67,6 +66,8 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
+STATIC_ROOT = '/home/nayar900/trip-planner-eld/static/'
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
