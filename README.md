@@ -10,6 +10,7 @@ The application takes trip details as input and outputs a route map with stops, 
 
 - **Frontend:** https://fleetlog-trip-planner.vercel.app
 - **Backend API:** https://nayar900.pythonanywhere.com
+- **Backend:** https://nayar900.pythonanywhere.com/api/plan-trip/?
 
 ## Features
 
@@ -26,7 +27,7 @@ The application takes trip details as input and outputs a route map with stops, 
 ### Backend
 - Django 5.0.6
 - Django REST Framework
-- SQLite (development) / PostgreSQL (production ready)
+- SQLite (development) / PostgreSQL (production-ready)
 - OpenRouteService API for routing and geocoding
 
 ### Frontend
